@@ -1,3 +1,7 @@
+#Curl Example
+
+
+
 curl -s -w ' 
 Namelookup: %{time_namelookup}
 Connect: %{time_connect}
