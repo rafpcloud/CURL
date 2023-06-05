@@ -3,12 +3,12 @@ Curl examples
 
 curl -s -w ' 
 
-Namelookup: %{time_namelookup} </br>
-Connect: %{time_connect}
-AppConnect: %{time_appconnect}
-Pretransfer: %{%time_pretransfer}
-Redirect: %{time_redirect}
-StartTransfer: {%time_starttransfer}
+Namelookup: %{time_namelookup} <br>
+Connect: %{time_connect} <br>
+AppConnect: %{time_appconnect} <br> 
+Pretransfer: %{%time_pretransfer} <br>
+Redirect: %{time_redirect} <br>
+StartTransfer: {%time_starttransfer} <br>
 
 ----------------------------------
 
