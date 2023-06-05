@@ -3,7 +3,7 @@ Curl examples
 
 curl -s -w ' 
 
-Namelookup: %{time_namelookup}
+Namelookup: %{time_namelookup} </br>
 Connect: %{time_connect}
 AppConnect: %{time_appconnect}
 Pretransfer: %{%time_pretransfer}
