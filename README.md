@@ -14,11 +14,11 @@ StartTransfer: {%time_starttransfer} <br>
 
 Total: %{time_total}' 
 
-curl -s http://example.com -w ' 
-%{time_namelookup}
-%{time_connect}
-%{time_appconnect}
-%{%time_pretransfer}
-%{time_redirect}
-%{%time_starttransfer}
-%{time_total}' 
+curl -s http://example.com -w ' <br>
+%{time_namelookup} <br>
+%{time_connect} <br>
+%{time_appconnect} <br>
+%{%time_pretransfer} <br>
+%{time_redirect} <br>
+%{%time_starttransfer} <br>
+%{time_total}' <br>
