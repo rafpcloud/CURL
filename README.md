@@ -20,5 +20,5 @@ curl -s http://example.com -w '
 %{time_appconnect}
 %{%time_pretransfer}
 %{time_redirect}
-{%time_starttransfer}
+%{%time_starttransfer}
 %{time_total}' 
